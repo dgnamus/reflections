@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Narediš ga zato da sploh lahko začneš sledit datotekam. Ko ga inicializiraš, ustvari neke skrite datoteke znotraj mape kjer si ustvaril
+in zazna datoteke ki so znotraj, te vpraša čemu sploh želiš sledit, ker mogoče ne želiš sledit vsemu.
+____________________________________________________________________________
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Ponuja ti možnost, da ne narediš sprememb preden nisi prepričan točno kaj hočeš naredit. Daje ti več fleksibilnosti,
+lahko si premisliš, brišeš, dodajaš...
+____________________________________________________________________________
