@@ -1,0 +1,45 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Zato ker je program izpostavil izključno RAZLIKE med obema verzijama in ne vse kode, ki je v obeh programih. V prvem primeru, ko sem iskal "ročno", je bilo izjemno nadležno,
+ker sem moral iti vrstico po vrstico in pregledati čisto vse, v drugem primeru pa sem razliko videl zelo hitro, čeprav se mi je še vseeno zdelo malo nepregledno, lahko bi bilo bolje uštimano,
+npr. da ti da oboje side by side in ti pobarva razlike, je verjetno še boljše, ampak bi pa spet imel napisano VSO kodo in ne samo razlike.
+
+____________________________________________________________________________________________________________________________________________________________________________________________________
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Lahko bom nadgrajeval/izboljševal svojo kodo, ob morebitnih napakah pa bom lahko z lahkoto primerjal z zadnjo delujočo verzijo programa. To bo pohitrilo moje delo. Manj časa bom lahko zapravljal
+na odkrivanju napak in več časa na dejanski izgradnji rešitev, kar mi bo prineslo višji ugled in več biznisa == več denarja €€€, nice.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Prednost je ta, da nimaš polno nesmislenih verzij, iz katerih se potem niti sam ne znajdeš. Slabost ročnih comitov pa je to, da morda pozabiš ali pa narobe oceniš, kdaj bi bilo dobro shranit verzijo
+in se zajebavaš pozneje, ker si morda naredil preveč sprememb med comiti.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Ker je git usmerjen na kodo, in pri kodi je pogosto, da imamo več datotek, ki se nanašajo druga na drugo, so medsebojno odvisne. Zato je smiselno, da z njimi tako tudi delamo in jih torej shranjujemo
+skupaj.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log ti pokaže vse verzije oz. vse commite, ki so bili ustvarjeni, noter so po možnosti tudi smiselni opisi, kaj je bilo spremenjeno. Nato lahko uporabiš git diff ter primerjaš dva commit id-ja,
+da potem jasno vidiš razlike med enim in drugim commitom.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+
+How might using version control make you more confident to make changes that could break something?
+
+Ker pač veš da se boš lahko vrnil nazaj k zadnji delujoči verziji in delal na svoji novi rešitvi od tam, preverjal razlike in našel napake.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Najbolj zato da se lahko naučim uporabljat github, da bom lahko ustvaril svoje projekte in pokazal drugim, da delam neke stvari, si ustvaril portfolio in začel služiti iz naslova programiranja. Yeah!
