@@ -7,3 +7,30 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Lahko da ne želiš da ti kaj zmoti delo, lahko delaš z več ljudmi in delaš na nečem, potem pa se ti stvari naenkrat spremenijo ker so nekaj delali že drugi.
 Omogoča ti več nadzora nad tem kaj imaš lokalno.
+
+____________________________________________________________________________
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork je v bistvu klon, ki se naredi prek githuba in je bolj praktično kot klonirat in potem pushat nazaj na github. Klon je kopija od repository. Branch je zaporedje različnih verzij nekega projekta.
+Fork uporabiš ko hočeš pridobit projekt nekoga drugega na github direktno.
+
+____________________________________________________________________________
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Zato da če delaš offline, npr na letalu ali pač nekje ker nimaš dostopa do interneta, da lahko še vedno sploh delaš, in updataš, downloadaš ali mergaš spremembe ko si spet nazaj online.
+
+____________________________________________________________________________
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Treba bi bilo pošiljat datoteke prek maila, ali pa mogoče uporabljat druge storitve, kot so dropbox ali google docs. Bilo bi veliko težje slediti vsem verzijam in vejam, saj mi morali
+non stop ročno ustvarjati nove mape in podmape itd. Ne vidim kaj bi bilo lažje pri vsem tem.
+
+____________________________________________________________________________
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+V posebni veji bi mogoče dal takrat ko recimo eksperimentiram, ali pa dodajam kakšno lastnost ki je še nisem dokončal, ni stestirana, zato nočem da je del glavne veje. Gre se tudi za delo
+s sodelavci, da lahko delamo vsak na svoji veji in damo v produkcijo ko imamo nek dokončan "izdelek".
