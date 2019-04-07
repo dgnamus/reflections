@@ -1,3 +1,9 @@
-When would you want to create a remote repository rather than keeping all your work local? 
+When would you want to create a remote repository rather than keeping all your work local?
 
-Takrat ko želiš svoje delo deliti z drugimi da ti povejo svoja mnenja, ali pa delaš na projektu kjer sodeluje več ljudi. 
+Takrat ko želiš svoje delo deliti z drugimi da ti povejo svoja mnenja, ali pa delaš na projektu kjer sodeluje več ljudi.
+____________________________________________________________________________
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Lahko da ne želiš da ti kaj zmoti delo, lahko delaš z več ljudmi in delaš na nečem, potem pa se ti stvari naenkrat spremenijo ker so nekaj delali že drugi.
+Omogoča ti več nadzora nad tem kaj imaš lokalno.

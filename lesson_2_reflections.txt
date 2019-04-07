@@ -9,3 +9,34 @@ How is the staging area different from the working directory and the repository?
 Ponuja ti možnost, da ne narediš sprememb preden nisi prepričan točno kaj hočeš naredit. Daje ti več fleksibilnosti,
 lahko si premisliš, brišeš, dodajaš...
 ____________________________________________________________________________
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Lahko ga uporabiš tako, da ga z ukazom git diff --staged primerjaš z repository in vidiš, ali si naredil logično spremembo.
+____________________________________________________________________________
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches so koristni, ko hočeš naredit kakšno novo verzijo programa, ali pa hočeš enostavno eksperimentirati in ob tem
+ne spreminjati glavnega projekta. Vidim tudi, kako je to lahko koristno za skupinsko delo.
+
+____________________________________________________________________________
+How do the diagrams help you visualize the branch structure?
+
+Lažje vidiš kje se trenutna veja spet združi z prejšnjo vejo oz. masterjem, karkšnakoli pač je že struktura.
+
+____________________________________________________________________________
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Rezultat so spremembe iz obeh vej od točke, ko sta obe veji prišli iz skupnega prednika oz. parenta. Vsi comiti so zdaj
+skupaj, razvrščeni po časovnici (ampak zmešani skupaj iz obeh nekdanjih vej).
+
+____________________________________________________________________________
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Ko moraš združevati ročno, moraš vedeti kaj prenesti v nov comit. To lahko pomeni, da se boš moral posvetovat s sodelavcem
+če je to skupinski projekt. Če je recimo samostojno, ti omogoča več nadzora nad tem kaj bo šlo v novo verzijo. Ker git ne bo
+počel ničesar kar tako na pamet, je možnost napak manjša (oz. je ta možnost zdaj na tebi). Pri avtomatskem merganju pa ti prihrani
+čas da te ne sprašuje za bedarije in pač naredi merge brez spraševanja.
